@@ -26,10 +26,11 @@ function rename_file($source, $target)
 }
 
 /**
+ * @time   09/19/2016T02:07
  * @param  (string) $path
  * @return (mixed)
  */
-function getRequire($path)
+function get_require($path)
 {
   if (is_file($path)) return require $path;
 }
@@ -71,6 +72,7 @@ function last_modified($path)
 }
 
 /**
+ * @time   09/19/2016T01:58
  * @param  (string|array) $paths
  * @return (int)
  */

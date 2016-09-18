@@ -1,0 +1,5 @@
+*.swp
+*.*~
+*.~$lock
+Thumbs.db
+~$x.xlsx

@@ -7,7 +7,7 @@
 #        Email: cclolly@gmail.com
 #     HomePage:
 #      Version: 0.0.1
-#   LastChange: 2016-09-19 06:48:07
+#   LastChange: 2016-09-20 02:53:27
 #      History:
 =============================================================================*/
 
@@ -46,7 +46,6 @@ function get_value($array, $key, $type = false)
   if (!$type) {
     return $result[1];
   } else {
-    // 过滤多余双引号
     return str_replace("\"", "", implode($type, $result[1]));
   }
 }

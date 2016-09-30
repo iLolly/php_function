@@ -116,4 +116,4 @@ function size($path)
 }
 
 /* EOF file.php */
-
+/* vim:set ft=php ts=2 sw=2 et fdm=marker: */

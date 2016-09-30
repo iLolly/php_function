@@ -233,4 +233,4 @@ function array_iconv($array, $in_charset, $out_charset)
 }
 
 /* EOF array.php */
-/* vim:set ft=php ts=2 sw=2 et fdm=marker: */
+/* vi:set ft=php ts=2 sw=2 et fdm=marker: */

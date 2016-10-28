@@ -11,7 +11,7 @@
 #      History:
 =============================================================================*/
 
-/**
+/*
  * @info   获取前 N 个元素
  * @param  (array) $array
  * @param  (int)   $top
@@ -26,7 +26,7 @@ function top($array, $top = 1)
   return $array;
 }
 
-/**
+/*
  * @info   根据 key 获取数组值
  * @param  (array)        $array  数组
  * @param  (string)       $key    要获得数据的键
@@ -50,7 +50,7 @@ function get_value($array, $key, $type = false)
   }
 }
 
-/**
+/*
  * @info   不改变键值的打乱数组
  * @param  (array)   $_array
  * @param  (boolean) $unique 过滤重复数组
@@ -77,7 +77,7 @@ function upset($_array, $unique = false)
   return $array_return;
 }
 
-/**
+/*
  * @info   压缩数组，过滤所有空值
  * @param  (array) $array
  * @return (array) $array
@@ -101,7 +101,7 @@ function compress($array)
   return json_decode($string, true);
 }
 
-/**
+/*
  * @info   指定键值做键名
  * @access public
  * @param  (array)  $array
@@ -120,7 +120,7 @@ function index($_array, $index = 'id')
   return $array;
 }
 
-/**
+/*
  * @info   无限分类树形格式化
  * @access public
  * @param  (array)  $items 原始一维数组
@@ -139,7 +139,7 @@ function gen_tree($array, $id = 'id', $cid = 'cid', $mark = 'items') {
   return isset($array[0][$mark]) ? $array[0][$mark] : array();
 }
 
-/**
+/*
  * @info   获得数组深度
  * @access public
  * @param  (array) $array
@@ -162,7 +162,7 @@ function depth($array)
   return $max_depth;
 }
 
-/**
+/*
  * @info   数组按字段排序
  * @access public
  * @param  (array)  $array
@@ -194,7 +194,7 @@ function array_sort($array, $field, $sort = 'asc')
   return $array;
 }
 
-/**
+/*
  * @info   值是否存在于数组中
  * @param  (mixed)   $value
  * @param  (array)   $array
@@ -215,7 +215,7 @@ function value_in_array($value, $array, $mode = false)
   return $result;
 }
 
-/**
+/*
  * @info   将数组转换成请求的字符串编码并且还原
  * @param  (array)  $array
  * @param  (string) $in_charset

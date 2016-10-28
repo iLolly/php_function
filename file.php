@@ -11,7 +11,7 @@
 #      History:
 =============================================================================*/
 
-/**
+/*
  * @time   09/19/2016T01:21
  * @return (boolean)
  * @demo   rename_file('./a', './b');
@@ -25,7 +25,7 @@ function rename_file($source, $target)
   }
 }
 
-/**
+/*
  * @time   09/19/2016T02:07
  * @param  (string) $path
  * @return (mixed)
@@ -40,7 +40,7 @@ function put($path, $contents)
   return file_put_contents($path, $contents);
 }
 
-/**
+/*
  * @time   09/19/2016T01:50
  * @return (int)
  */
@@ -53,7 +53,7 @@ function prepend($path, $data)
   }
 }
 
-/**
+/*
  * @time   09/19/2016T01:56
  * @return (int)
  */
@@ -62,7 +62,7 @@ function append($path, $data)
   return file_put_contents($path, $data, FILE_APPEND);
 }
 
-/**
+/*
  * @time   09/19/2016T01:58
  * @return (int)
  */
@@ -71,7 +71,7 @@ function last_modified($path)
   return filemtime($path);
 }
 
-/**
+/*
  * @time   09/19/2016T01:58
  * @param  (string|array) $paths
  * @return (int)
@@ -88,7 +88,7 @@ function delete($paths)
   return $count;
 }
 
-/**
+/*
  * @time   09/19/2016T01:50
  * @return (boolean)
  */
@@ -97,7 +97,7 @@ function move($path, $target)
   return rename($path, $target);
 }
 
-/**
+/*
  * @time   09/19/2016T01:50
  * @return (string)
  */
@@ -106,7 +106,7 @@ function type($path)
   return filetype($path);
 }
 
-/**
+/*
  * @time   09/19/2016T02:00
  * @return (int)
  */

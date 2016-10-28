@@ -18,7 +18,7 @@
  * @return (array) $array
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140801025149
+ * @time   08/10/2014T02:51:49
  */
 function top($array, $top = 1)
 {
@@ -34,7 +34,7 @@ function top($array, $top = 1)
  * @return (array|string) $result
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140728163852
+ * @time   07/28/2014T16:38:52
  */
 function get_value($array, $key, $type = false)
 {
@@ -57,7 +57,7 @@ function get_value($array, $key, $type = false)
  * @return (array)
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140728165521
+ * @time   07/28/2014T16:55:21
  */
 function upset($_array, $unique = false)
 {
@@ -83,7 +83,7 @@ function upset($_array, $unique = false)
  * @return (array) $array
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140802000730
+ * @time   08/02/2014T00:07:30
  */
 function compress($array)
 {
@@ -109,7 +109,7 @@ function compress($array)
  * @return (array)  $array
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140718174224
+ * @time   07/18/2014T17:42:24
  */
 function index($_array, $index = 'id')
 {
@@ -130,7 +130,7 @@ function index($_array, $index = 'id')
  * @return (array)  $array
  * @model  gen_tree($array, 'id', 'cid', 'son') // => (array) $array
  *
- * @time   20140718174224
+ * @time   07/18/2014T17:42:24
  */
 function gen_tree($array, $id = 'id', $cid = 'cid', $mark = 'items') {
   foreach ($array as $item) {
@@ -146,7 +146,7 @@ function gen_tree($array, $id = 'id', $cid = 'cid', $mark = 'items') {
  * @return (int)   $max_depth
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140718174224
+ * @time   07/18/2014T17:42:24
  */
 function depth($array)
 {
@@ -171,7 +171,7 @@ function depth($array)
  * @return (array)  $array
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140718174224
+ * @time   07/18/2014T17:42:24
  */
 function array_sort($array, $field, $sort = 'asc')
 {
@@ -224,7 +224,7 @@ function value_in_array($value, $array, $mode = false)
  * @error  如果输入编码不对，会直接报错。eval 运行出错没法屏蔽。
  *
  * @author Lolly <cclolly@gmail.com>
- * @time   20140801010640
+ * @time   08/01/2014T01:06:40
  */
 function array_iconv($array, $in_charset, $out_charset)
 {
